@@ -76,6 +76,37 @@ p {
   height: 250px;
 }
 
+/* 5th */
+/* 4th step */
+.container-step {
+  width: 81%;
+  height: 170px;
+  margin: 120px 100px 100px 100px;
+  border-radius: 20px;
+  box-shadow: 5px 7px 30px gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.likes {
+  float: left;
+  width: 27%;
+  padding: 33px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.likes:hover {
+  background: darkgray;
+  border-radius: 10px;
+  margin: 1px 0 7px 3px;
+}
+
+#aligen {
+  text-align: center;
+  font-weight: 200;
+}
+/* end 4th step */
+
 /* end 3rd step */
 
 .footer-d {
