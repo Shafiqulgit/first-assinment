@@ -3,6 +3,8 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+/* 1st & 2nd step */
+
 h1 {
   font-size: 40px;
   margin-top: 120px;
@@ -11,6 +13,10 @@ h1 {
 p {
   text-align: justify;
   color: rgb(87, 83, 83);
+}
+
+#second-paragraph {
+  text-align: start;
 }
 
 .buy-now-button {
@@ -47,6 +53,8 @@ p {
   background-repeat: no-repeat;
 }
 
+/* end 1st & 2nd step */
+
 /* 3rd step */
 .container {
   width: 100%;
@@ -76,12 +84,13 @@ p {
   height: 250px;
 }
 
-/* 5th */
+/* end 3rd step */
+
 /* 4th step */
 .container-step {
   width: 81%;
   height: 170px;
-  margin: 120px 100px 100px 100px;
+  margin: 120px 100px 100px 120px;
   border-radius: 20px;
   box-shadow: 5px 7px 30px gray;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -93,10 +102,11 @@ p {
   padding: 33px;
   text-align: center;
   font-weight: bolder;
+  border-radius: 20px;
 }
 
 .likes:hover {
-  background: darkgray;
+  background: #aecdf0;
   border-radius: 10px;
   margin: 1px 0 7px 3px;
 }
@@ -107,8 +117,26 @@ p {
 }
 /* end 4th step */
 
-/* end 3rd step */
+/* 6th */
+.five-step {
+  width: 95%;
+  margin: 10px 30px 10px 30px;
+  height: 210px;
+  border: 1px solid bisque;
+  border-radius: 20px;
+  background-color: #fef3ec;
+}
+.button {
+  float: left;
+  width: 90%;
+  height: 150px;
+  padding: 33px;
+  text-align: center;
+  font-weight: bolder;
+}
+/* end 6th */
 
+/* 5th step */
 .footer-d {
   margin: 10px auto;
   width: 50%;
@@ -132,3 +160,5 @@ p {
 #font-size {
   text-align: center;
 }
+
+/* end 5th step */
